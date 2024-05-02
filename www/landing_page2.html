@@ -1,0 +1,80 @@
+<div style="width:100%; text-align:center; margin-bottom:60px;">
+    <img src="IBiostatlogo.png" style="width:70%">
+</div>
+
+
+<h3>The Benefit Risk Assessment of VaccinEs (BRAVE) toolkit is an interactive web application that employs statistical methods to quantify the benefits and risks of vaccines. </h3>
+
+In the current version, the method has been applied to infer benefits and risks of COVID-19 vaccines for populations of interest based on available data sources within the EU/EEA.
+
+<button type="button"  onclick="expand(this)" class="collapsible">When should I use the toolkit?</button>
+<div class="expandablecontent" id = 'tab1'>
+
+The toolkit models the benefits and risks that are potentially associated with COVID-19 vaccination.  
+
+<h3>Benefit outcomes</h3>
+
+Benefits of COVID-19 vaccines are quantified as the number of prevented COVID-19 confirmed cases, hospitalisations, ICU admissions and deaths. Quantification of the benefits associated with COVID-19 vaccination is done directly by comparing the observed number of COVID-19 confirmed cases, hospitalisation, ICU admissions and deaths with the expected number that would have occurred had no COVID-19 vaccination been used. 
+<h3>Risk outcomes</h3>
+
+In the toolkit, the benefits are offset against the following safety signals that were investigated by EMA as potentially being associated with a specific COVID-19 vaccine.
+
+<ul>
+	<li>Myocarditis & pericarditis for the mRNA vaccines (Comirnaty and Spikevax), 14 days after vaccination.</li>
+	<li>Thrombosis with thrombocytopenia (TTS) for the adenovirus vaccine Vaxzevria, 30 days after vaccination.</li>
+</ul>
+
+</div>
+
+<button type="button" onclick="expand(this)" class="collapsible">Which data do I need?</button>
+<div class="expandablecontent" id = 'tab2'>
+
+The user can upload data within the application to calculate the outcomes of interest for their population/vaccine of interest. Uploaded data files can be in the ‘.rds’ or ‘.csv’ formats. The uploaded data files will be checked against the requirements set out in the toolkit. 
+<h3>Benefit data</h3>
+
+<ul>
+	<li>A data set containing the number of inhabitants aggregated by population of interest (e.g. age/gender/variant)</li>
+	<li>A data set containing the number of COVID-19 cases, hospital admissions, ICU admissions and deaths by population of interest aggregated by date. </li>
+	<li>A data set containing the number of COVID-19 cases, hospital admissions, ICU admissions and deaths by population of interest. </li>
+	<li>A data set containing the estimated distribution of variants of concern by population of interest</li>
+	<li>A data set with the coverage of the vaccine under study aggregated by population of interest.</li>
+</ul>
+
+<h3>Risk data</h3>
+
+Three input datasets for the risk assessment are required. 
+
+<ul>
+	<li>A data set containing the number of observed events for the risk of interest aggregated by population of interest.</li>
+	<li>A data set with background incidence rates of the reported risk interest aggregated by population of interest.</li>
+	<li>A data set with the vaccine coverage aggregated by population of interest.</li>
+</ul>
+
+<br>
+
+If available, the toolkit can calculate the required estimates up to a first booster and by variant of concern. More details on the data sources used in the analysis and the required columns and attributes can be found in the <a target="_blank", href="user manual.pdf">user manual</a>. In addition, default datasets are implemented in the tool for consultation. 
+</div>
+
+<br>
+<br>
+
+Quick links:
+
+<div>
+<table style="text-align:center; width:100%">
+	<tr>
+	<td><a target="_blank" href="user manual.pdf"><img src = "Assets/Icon_user manual.png"></img></a></td>
+	<td></td>
+	<td><a style = "cursor:pointer" onclick="set_active_tab(-1, 0)"><img src = "Assets/Icon_start inputting data.png"></img></a></td>
+	</tr>
+	<tr>
+	<td>
+		<a target="_blank" href="user manual.pdf"> Read the user manual </a>
+	</td>
+	<td></td>
+	<td><a style = "cursor:pointer" onclick="set_active_tab(-1, 0)"> Start inputting data </a></td>
+	</tr>
+</table>
+</div>
+	
+ 

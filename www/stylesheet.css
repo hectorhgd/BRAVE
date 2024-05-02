@@ -1,0 +1,368 @@
+ .btn-maintab {
+    font-size: 16px;
+    font-family: inherit;
+    padding: 5px 12px;
+    height: 55px;
+    width: 12%;
+    margin: 0px 10px 14px 20px;
+    text-align: left;
+    color: white !important;
+    background: #999;
+    text-indent: 4px;
+    vertical-align: middle;
+    border-radius: 0px;
+    border-color: transparent;
+}
+ .btn-activetab {
+    font-size: 16px;
+    font-family: inherit;
+    padding: 5px 12px;
+    height: 55px;
+    width: 12%;
+    margin: 0px 10px 14px 20px;
+    text-align: left;
+    color: white !important;
+    background: #56B4E9;
+    text-indent: 4px;
+    vertical-align: middle;
+    border-radius: 0px;
+    border-color: transparent;
+}
+.btn-maintab:hover {
+    background-color:#56B4E9;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 5px 12px;
+    height: 55px;
+    width: 12%;
+    margin: 0px 10px 14px 20px;
+    text-align: left;
+    color: white !important;
+    text-indent: 4px;
+    vertical-align: middle;
+    border-radius: 0px;
+    border-color: transparent;
+}
+.btn-maintab:focus{
+	color: white;
+}
+
+.navbar{
+	background-color: #003399 !important;
+	margin-left:400px !important;
+}
+
+.main-header .logo{
+	background-color: #003399 !important;
+	width:400px;
+	float:left;
+}
+
+.box.box-solid.box-warning {
+	border-color: #003399 !important;
+}
+
+.box.box-solid.box-warning>.box-header {
+	background-color: #003399 !important;
+}
+
+.box.box-solid.box-info{
+	border-color: #003399 !important;
+}
+
+.box.box-solid.box-info>.box-header {
+	background-color: #003399 !important;
+}
+
+
+
+
+
+
+.mobile-header{
+	display:block; 
+	padding:15px;
+	width:100%; 
+	margin-bottom: 20px; 
+	background-color:#003399;
+	font-size:18px; 
+	color:#fff;
+	border-radius: 4px;'
+}
+
+.checkbox-inline { 
+		margin-left: 0px;
+		margin-right: 10px;
+}
+.checkbox-inline+.checkbox-inline {
+		margin-left: 0px;
+		margin-right: 10px;
+}
+
+.selectize-control {
+  margin-bottom: 0px !important;
+}
+
+.form-group {
+	margin-bottom: 0px !important;
+}
+
+.progress {
+	margin-bottom: 0px !important;
+}
+
+.msgvalid {
+	color: Darkgreen;
+}
+
+.msginvalid {
+	color: red;
+}
+
+.parameter_table_td {
+	padding: 10px;
+}
+
+.parameter_table_tr {
+	border: 1px solid black;
+}
+
+.parameter_table_head_td {
+	padding: 10px;
+	font-weight:bold;
+}
+
+.parameter_table_head_tr {
+	border: 1px solid black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inactiveLink {
+	cursor: not-allowed;
+ }
+ 
+ .inactiveLink:active {
+	pointer-events: none;
+ }
+ 
+ /*.main-sidebar a {
+	background-color:#ffffff !important;
+	color: #000 !important;
+ }*/
+ 
+.skin-blue .main-sidebar {
+    background-color: #ffffff !important;
+	color: #000 !important;
+}
+
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    background: #ffffff !important;
+	color: #000 !important;
+}
+
+.skin-blue .sidebar-menu>li.active>a {
+	background: #e7f2fb !important;
+	color: #033399 !important;
+	border-left:5px solid #3c8dbc;
+}
+
+.img {
+	margin-bottom: 3px;
+}
+
+.skin-blue .sidebar-menu>li>a {
+	font-weight:bold;
+}
+
+.treeview-menu > li > a {
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+}
+
+.skin-blue .sidebar-menu>li:not(active)>a {
+	background: #ffffff !important;
+	color: #000 !important;
+	border-left:5px solid white;
+}	
+
+.skin-blue .sidebar-menu .treeview-menu>li:not(active)>a {
+	background: #ffffff !important;
+	color: #000 !important;
+	border-left:5px solid white;
+	padding-left:55px !important;
+	margin-left:-1px !important;
+}
+
+.sidebar-menu>li>a {
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+}
+
+.skin-blue .sidebar-menu .treeview-menu>li.active>a {
+	background: #e7f2fb !important;
+	color: #033399 !important;
+	border-left:5px solid #3c8dbc;
+	padding-left:55px !important;
+	margin-left:-1px !important;
+}
+
+.treeview-menu {
+	padding-left:0px;
+}
+
+.content-wrapper {
+    background-color: #f7f7f7 !important;
+}
+
+.main-sidebar {
+	width: 230px !important;
+	
+}
+
+.control-sidebar-dark, .control-sidebar-dark+.control-sidebar-bg {
+    background: #e1e3f2 !important;
+	border-left: 1px solid black;
+	margin-left: 20px;
+	color: black;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active {
+	border-top-color: #003399 !important;
+}
+
+label[for=sex_risk1plot]
+{
+    float:left;
+	margin-right: 1em;
+}
+
+#dropdown_option_risk1plot {
+	float:left;
+	margin-right: 1em;
+}
+
+.btn-download {
+	float:left;
+	margin-right: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#sex_risk1plot-selectized {
+	
+}
+
+.settings_row {
+
+}
+
+.settings_row .form-group > div {
+	float:left;
+	width: 130px;
+}
+
+.settings_row .selectize-input {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 0px;
+}
+
+.settings_row .control-label {
+	float:left;
+	margin-right: 0.5em;
+}
+
+
+.tooltips {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltips .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #eee;
+  color: #000;
+  padding: 5px 5px;
+  border: 1px solid black;
+
+  font-weight: 100;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltips .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltips:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  cursor: pointer;
+  padding-left: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+  color: #003399;
+  margin-top:10px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active_tab, .collapsible:hover {
+  background-color: #eee;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.expandablecontent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.collapsible:after {
+  content: '\25BC'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #003399;
+  float: right;
+  margin-left: 5px;
+}
+
+.active_tab:after {
+  content: "\25B2"; /* Unicode character for "minus" sign (-) */
+}

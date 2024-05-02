@@ -1,0 +1,5 @@
+"param";"default"
+"Risk notification period (in days)";14
+"Weight background rate source ARS";0.1
+"Weight background rate source BIFAP PCCOVID";0.1
+"Weight background rate source BIFAP PCHOSP";0.1

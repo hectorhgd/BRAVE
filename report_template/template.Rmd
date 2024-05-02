@@ -1,0 +1,73 @@
+---
+title: "COVID19 vaccine benefit risk assessment - input data overview"
+output: html_document
+params:
+  params: NA
+  countries: NA
+  age_groups_benefits: NA
+  vaccines: NA
+  variants: NA
+  conditions_per_vaccine: NA
+  age_groups_per_condition: NA
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+require(tidyverse)
+```
+
+## Countries
+
+`r paste0(params$countries, collapse = ', ')`
+
+## Vaccines
+
+`r paste0(params$vaccines, collapse = ', ')`
+
+## Variants
+
+`r paste0(params$variants, collapse = ', ')`
+
+## Age groups benefit analysis
+
+`r paste0(params$age_groups_benefits, collapse = ', ')`
+
+## Conditions analysed per vaccine
+
+```{r, echo = FALSE}
+knitr::kable(params$conditions_per_vaccine)
+```
+
+## Age groups by condition
+
+```{r, echo = FALSE}
+knitr::kable(params$age_groups_per_condition)
+```
+
+## Analysis window
+
+Start: `r format(params$params$timewindow[1], '%B %d, %Y')`<br>
+End: `r format(params$params$timewindow[2], '%B %d, %Y')`
+
+
+## Parameters risk
+
+```{r, echo = FALSE}
+knitr::kable(params$params$param_risk)
+```
+
+## Parameters vaccine efficiency
+
+```{r, echo = FALSE}
+knitr::kable(params$params$param_ve %>% 
+    pivot_longer(cols = -c(vaccine, dose, variant, against, parameter),
+                names_to = 'scenario',
+                values_to = 'value') %>%
+    pivot_wider(names_from = parameter,
+                values_from = value)
+               )
+```
+

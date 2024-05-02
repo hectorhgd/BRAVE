@@ -1,0 +1,69 @@
+<br><br>
+The COVID-19 vaccine benefit-risk assessment tool facilitates the quantification of the benefits and the risks associated with various vaccines.
+<br><br>
+
+<button type="button"  onclick="expand(this)" class="collapsible">When should I use the tool?</button>
+<div class="expandablecontent" id = 'tab1'>
+  The tool can be used to model the benefits (prevented cases, hospitalizations, icu admissions and deaths) and risks of various COVID-19 vaccines. <br> 
+  
+  
+  By uploading the required data sets the user can chose to model the benefits for:
+  <ul>
+    <li>a set of European countries</li>
+    <li>a set of age categories</li>
+    <li>a range of vaccines</li>
+    <li>a number of variants of concern</li>
+  </ul>
+  Benefits are computed independent of sex and a maximum of 3 vaccine doses are allowed. <br><br>
+  By uploading the required data sets the user can chose to model the risks for:
+  <ul>
+    <li>a set of European countries</li>
+    <li>males and females separately</li>
+    <li>a range of vaccines</li>
+    <li>a list of conditions which can differ per vaccine</li>
+    <li>a set of age categories which differ per condition</li>
+    <li>the background risk rate to compare the results to</li>
+  </ul>
+  </div>
+
+<br><br>
+<button type="button" onclick="expand(this)" class="collapsible">Data requirements</button>
+<div class="expandablecontent" id = 'tab2'>
+  Running the tool requires the following information:
+  
+  <ul>
+    <li>For each country and age group included in the benefits analysis:</li>
+    <ul>
+      <li>Number of inhabitants</li>
+      <li>Proportion of this age group in the total COVID-19 burden for cases, hospitalizations, icu admission and mortality</li>
+    </ul>
+    <li>For each country and date included in the benefits analysis:</li>
+    <ul>
+      <li>Number of COVID-19 cases, hospital admissions, icu admissions and deaths</li>
+    </ul>
+    <li>For each country, date and variant of concern included in the benefits analysis:</li>
+    <ul>
+      <li>Proportion of the COVID-19 infections with this variant</li>
+    </ul>
+    <li>For each country, date, age group and vaccine included in the benefit analysis:</li>
+    <ul>
+      <li>Number of first, second and third doses administred</li>
+    </ul>
+    <li>For each age group, sex, condition and vaccine included in the risk analysis:</li>
+    <ul>
+      <li>Number of observed risk cases aggregated over the whole study period</li>
+    </ul>
+    <li>For each age group, sex and condition included in the risk analysis:</li>
+    <ul>
+      <li>Number of observed risk cases not induced by vaccination</li>
+      <li>Number of observed person years</li>
+    </ul>
+    Various data sources and observation periods can be included in the data.
+    <li>For each age group, sex and vaccine in the risk analysis:</li>
+    <ul>
+      <li>The number of administred vaccines over the whole study period</li>
+    </ul>
+    When this number is imputed also the uncertainty of this imputation is required.
+  </ul>
+  
+</div>

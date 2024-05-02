@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="544.234" height="48" viewBox="0 0 544.234 48">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4f4e4c"/>
+      <stop offset="0.26" stop-color="#4f4e4c"/>
+      <stop offset="0.34" stop-color="#555452"/>
+      <stop offset="0.46" stop-color="#686765"/>
+      <stop offset="0.6" stop-color="#878685"/>
+      <stop offset="0.76" stop-color="#b2b1b0"/>
+      <stop offset="0.93" stop-color="#e8e8e8"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.27" stop-color="#fff"/>
+      <stop offset="0.36" stop-color="#f2f1f1"/>
+      <stop offset="0.52" stop-color="#cfcece"/>
+      <stop offset="0.74" stop-color="#989696"/>
+      <stop offset="1" stop-color="#4e4b4a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4e4b4a"/>
+      <stop offset="0.04" stop-color="#4e4b4a"/>
+      <stop offset="0.58" stop-color="#8f8b8b"/>
+      <stop offset="0.96" stop-color="#bebaba"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d1cdcd"/>
+      <stop offset="0.33" stop-color="#d1cdcd"/>
+      <stop offset="0.45" stop-color="#d7d4d4"/>
+      <stop offset="0.63" stop-color="#ebe9e9"/>
+      <stop offset="0.78" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.76" cy="0.171" r="0.804" gradientTransform="translate(-0.003)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4e4b4a"/>
+      <stop offset="0.01" stop-color="#4e4b4a"/>
+      <stop offset="0.47" stop-color="#a6a4a4"/>
+      <stop offset="0.83" stop-color="#e6e5e5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+  </defs>
+  <g id="EMA-telematic-logo_Benefit-risk_assessment_RGB_reverse" data-name="EMA-telematic-logo_Benefit-risk assessment_RGB_reverse" transform="translate(-1 -0.83)" style="isolation: isolate">
+    <g id="Logos" transform="translate(1 0.83)">
+      <g id="Group_12079" data-name="Group 12079" transform="translate(0)">
+        <g id="Group_12075" data-name="Group 12075" transform="translate(63.461 7.474)">
+          <path id="Path_11247" data-name="Path 11247" d="M150.012,31.633c0-6.326,0-7.492-.083-8.824-.083-1.415-.412-2.081-1.77-2.375a8.409,8.409,0,0,0-1.608-.123c-.451,0-.7-.083-.7-.377s.289-.377.907-.377c2.182,0,4.78.127,5.932.127,1.319,0,9.52,0,10.3-.039a16.144,16.144,0,0,0,1.77-.25,4.015,4.015,0,0,1,.657-.166c.206,0,.245.166.245.377a26.8,26.8,0,0,0-.329,2.7c-.039.416-.123,2.248-.206,2.747-.039.206-.123.456-.412.456s-.372-.21-.372-.583a4.493,4.493,0,0,0-.245-1.5c-.289-.749-.7-1.249-2.76-1.5-.7-.083-5.025-.166-5.853-.166-.206,0-.289.127-.289.416V32.715c0,.294.039.456.289.456.907,0,5.647,0,6.594-.083a2.867,2.867,0,0,0,1.976-.622c.289-.333.451-.543.657-.543.166,0,.289.083.289.333s-.206.916-.329,3.041c-.083.832-.166,2.5-.166,2.786,0,.333,0,.793-.372.793a.33.33,0,0,1-.372-.377,10.337,10.337,0,0,0-.166-1.5c-.206-.832-.784-1.459-2.309-1.625-.784-.083-4.863-.127-5.853-.127-.206,0-.245.166-.245.416V38.95c0,1.415-.039,5.244,0,6.453.083,2.87.74,3.5,4.946,3.5a10.342,10.342,0,0,0,3.873-.5c1.073-.5,1.564-1.371,1.853-3.08.083-.456.166-.622.451-.622.329,0,.329.333.329.749a32.823,32.823,0,0,1-.535,4.618c-.289,1.082-.657,1.082-2.226,1.082-6.221,0-8.981-.25-11.413-.25-.946,0-3.544.127-5.192.127-.535,0-.824-.127-.824-.416,0-.206.166-.333.657-.333a6.693,6.693,0,0,0,1.485-.166c.824-.166,1.03-1.082,1.2-2.291.206-1.748.206-5.038.206-8.867V31.624Z" transform="translate(-145.85 -18.643)" fill="#fff"/>
+          <path id="Path_11248" data-name="Path 11248" d="M211.351,18.982c.127-.71.372-1.082.71-1.082s.583.21,1.122,1.292l11.365,23.474L235.868,18.9c.294-.666.543-1,.916-1s.622.416.749,1.292l3.79,25.722c.372,2.62.793,3.829,2.042,4.2a8.373,8.373,0,0,0,2.581.416c.377,0,.666.039.666.294,0,.333-.5.456-1.082.456-1.043,0-6.786-.127-8.451-.25-.959-.083-1.209-.206-1.209-.456,0-.206.166-.333.46-.456.25-.083.372-.622.206-1.788l-2.5-18.313h-.167l-9.073,18.9c-.959,1.954-1.165,2.331-1.542,2.331s-.793-.832-1.459-2.081c-1-1.915-4.289-8.285-4.784-9.45-.377-.876-2.874-6.116-4.329-9.24h-.166L210.353,46.04a16.508,16.508,0,0,0-.127,1.954c0,.793.539,1.165,1.249,1.332a8.074,8.074,0,0,0,1.748.21c.333,0,.627.083.627.294,0,.372-.372.456-1,.456-1.748,0-3.623-.127-4.372-.127-.789,0-2.786.127-4.118.127-.416,0-.749-.083-.749-.456,0-.21.25-.294.666-.294a5.251,5.251,0,0,0,1.249-.127c1.165-.25,1.5-1.875,1.709-3.286l4.123-27.137Z" transform="translate(-178.304 -17.896)" fill="#fff"/>
+          <path id="Path_11249" data-name="Path 11249" d="M316.78,39.41c-.21,0-.294.083-.372.333l-2.248,5.95a8.088,8.088,0,0,0-.622,2.537c0,.749.372,1.292,1.665,1.292h.626c.5,0,.622.083.622.333,0,.333-.25.416-.705.416-1.332,0-3.124-.127-4.412-.127-.456,0-2.747.127-4.911.127-.543,0-.793-.083-.793-.416,0-.25.166-.333.5-.333.372,0,.959-.044,1.288-.083,1.915-.25,2.708-1.665,3.54-3.746l10.449-26.138c.5-1.209.749-1.665,1.165-1.665.372,0,.622.377,1.043,1.332,1,2.291,7.658,19.273,10.322,25.6,1.582,3.746,2.791,4.329,3.663,4.539a9.293,9.293,0,0,0,1.748.166c.333,0,.539.039.539.333,0,.333-.372.416-1.915.416s-4.539,0-7.869-.083c-.749-.039-1.249-.039-1.249-.333,0-.25.167-.333.583-.377a.673.673,0,0,0,.372-.955L326.48,39.7a.4.4,0,0,0-.416-.294H316.78Zm8.491-2.081c.206,0,.25-.123.206-.25L321.731,26.8c-.044-.166-.083-.372-.21-.372s-.21.206-.25.372l-3.829,10.239c-.044.166,0,.294.167.294h7.658Z" transform="translate(-235.628 -17.89)" fill="#fff"/>
+        </g>
+        <text id="Benefit-Risk_Assessment" data-name="Benefit-Risk Assessment" transform="translate(210.234 38.798)" fill="#fff" font-size="27" font-family="Verdana"><tspan x="0" y="0">Benefi</tspan><tspan y="0" letter-spacing="-0.02em">t</tspan><tspan y="0">-Risk Assessment</tspan></text>
+        <line id="Line_34" data-name="Line 34" y2="31.461" transform="translate(189.279 8.302)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.06"/>
+        <g id="Group_12078" data-name="Group 12078" transform="translate(0.438 0.438)">
+          <path id="Path_11250" data-name="Path 11250" d="M25.562,48.954A23.562,23.562,0,1,0,2,25.392,23.563,23.563,0,0,0,25.562,48.954" transform="translate(-2 -1.83)" fill="#039"/>
+          <g id="Group_12077" data-name="Group 12077" transform="translate(17.533 25.091)" style="mix-blend-mode: multiply;isolation: isolate">
+            <g id="Group_12076" data-name="Group 12076">
+              <path id="Path_11251" data-name="Path 11251" d="M61.468,59.1c-10.743,0-19.448,3.343-19.448,7.465s8.705,7.461,19.448,7.461q1.834,0,3.575-.127a23.467,23.467,0,0,0,6.432-13.735,45.084,45.084,0,0,0-10-1.06" transform="translate(-42.02 -59.1)" fill="url(#linear-gradient)"/>
+            </g>
+          </g>
+          <path id="Path_11252" data-name="Path 11252" d="M21.354,42.08A12.767,12.767,0,0,0,20,47.789C20,55.5,26.935,61.76,35.487,61.76S50.975,55.5,50.975,47.789a12.767,12.767,0,0,0-1.354-5.709Z" transform="translate(-12.114 -24.446)" fill="url(#linear-gradient-2)"/>
+          <path id="Path_11253" data-name="Path 11253" d="M37,31.78c-7.956.114-14.309,2.458-14.309,5.336S29.17,42.29,37,42.453Z" transform="translate(-13.625 -18.658)" fill="url(#linear-gradient-3)"/>
+          <path id="Path_11254" data-name="Path 11254" d="M55.35,31.78V42.453c7.829-.162,14.309-2.493,14.309-5.336S63.306,31.894,55.35,31.78Z" transform="translate(-31.977 -18.658)" fill="url(#linear-gradient-4)"/>
+          <path id="Path_11255" data-name="Path 11255" d="M48.514,31.78a5.332,5.332,0,1,0,5.314,5.332,5.323,5.323,0,0,0-5.314-5.332Z" transform="translate(-25.15 -18.658)" fill="url(#radial-gradient)"/>
+        </g>
+        <path id="Path_11256" data-name="Path 11256" d="M25,48.83a24,24,0,1,1,24-24A24.025,24.025,0,0,1,25,48.83ZM25,1.706A23.124,23.124,0,1,0,48.124,24.83,23.152,23.152,0,0,0,25,1.706Z" transform="translate(-1 -0.83)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
